@@ -1,7 +1,7 @@
 {
   "name": "imports-sorter",
   "displayName": "Imports Sorter",
-  "icon": "icon.png",
+  "icon": "images/icon.png",
   "description": "An extension to update imports based on the number of characters.",
   "version": "0.0.1",
   "engines": {
@@ -10,16 +10,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      { "command": "extension.sortImports", "title": "Sort Imports" }
-    ],
-    "onSave": [
-      {
-        "command": "extension.sortImports"
-      }
+      { "command": "extension.sortImports", "title": "Sort Imports", "enablement": "true" }
     ]
   },
   "scripts": {

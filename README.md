@@ -4,6 +4,7 @@ Sort your imports on save.
 
 Work with the following languages:
 - JavaScript
+- TypeScript
 - Python
 - Java
 - C#

@@ -24,6 +24,7 @@ const updateImports = (ascending: boolean): void => {
 
     const importStartKeywords: { [key: string]: string[] } = {
       javascript: ["import", "export", "require", "module.exports", "export default"],
+      typescript: ["import", "export", "require", "module.exports", "export default"],
       python: ["import"],
       java: ["import", "package"],
       csharp: ["using"],
@@ -77,6 +78,6 @@ const updateImports = (ascending: boolean): void => {
   }
 };
 
-export const deactivate = (): void => {
-  console.log("Your extension \"imports-sorter\" is now deactivated!");
+export default {
+  activate
 };
