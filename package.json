@@ -4,6 +4,10 @@
   "icon": "images/icon.png",
   "description": "An extension to update imports based on the number of characters.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Steellgold/imports-sorter.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
